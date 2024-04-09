@@ -15,9 +15,15 @@ public class Hacking : MonoBehaviour
 
     private GameObject canvas;
 
+    public Sprite broken;
+
+    private SpriteRenderer sp;
+
     // Start is called before the first frame update
     void Start()
     {
+        sp = GetComponent<SpriteRenderer>();
+
         canvas = GameObject.FindWithTag("GameCanvas");
         if (canvas == null)
         {
@@ -43,18 +49,10 @@ public class Hacking : MonoBehaviour
         {
             if (canvas != null)
             {
-                ScoreUI scoreUI = canvas.GetComponentInChildren<ScoreUI>();
-                if (scoreUI != null)
-                {
-                    scoreUI.Score++;
-                    isHacked = true;
-                    BarCollor.color = Color.green;
-                    StartCoroutine(Delay(1f));
-                }
-                else
-                {
-                    Debug.LogError("ScoreUI component not found on Canvas children!");
-                }
+                ScoreUI.Score++;
+                isHacked = true;
+                BarCollor.color = Color.green;
+                StartCoroutine(Delay(1f));
             }
         }
 
@@ -90,5 +88,6 @@ public class Hacking : MonoBehaviour
     {
         yield return new WaitForSeconds(delayTime);
         BarCollor.color = new Color(0, 0, 0, 0);
+        sp.sprite = broken;
     }
 }

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - ladder
   - GameCanvas
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -14,8 +15,8 @@ TagManager:
   - Water
   - UI
   - console
-  - 
-  - 
+  - DroneHelper
+  - player
   - 
   - 
   - 

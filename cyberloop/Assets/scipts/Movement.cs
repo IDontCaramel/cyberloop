@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class PlayerMovement : MonoBehaviour
+public class Movement : MonoBehaviour
 {
     private float horizontal;
     public float speed = 8f;
@@ -9,9 +9,10 @@ public class PlayerMovement : MonoBehaviour
     public float sprintPower = 1f;
     private bool isFacingRight = true;
 
+
     public Animator anim;
 
-
+    public bool canJump = true;
 
     [SerializeField] private Rigidbody2D rb;
     [SerializeField] private Transform groundCheck;
@@ -25,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
 
         anim.SetFloat("speed", Mathf.Abs(horizontal));
 
-        if (Input.GetButtonDown("Jump") && IsGrounded() && !delay)
+        if (Input.GetButtonDown("Jump") && IsGrounded() && !delay && canJump)
         {
             anim.SetBool("IsJumping", true);
             rb.velocity = new Vector2(rb.velocity.x, jumpingPower);

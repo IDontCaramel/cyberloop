@@ -75,7 +75,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 15
-  m_Sprite: {fileID: -186259872, guid: e4b914298e8afeb43b9f72f5b0172a0a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 35084d7337012414f99930e10eda76fd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -104,6 +104,7 @@ MonoBehaviour:
   isHacked: 0
   pBar: {fileID: 1483771629167484581}
   BarCollor: {fileID: 2159740688264239650}
+  broken: {fileID: 21300000, guid: d6a1f26f755ddf54f9f18976e052c345, type: 3}
 --- !u!1 &2255617226002650311
 GameObject:
   m_ObjectHideFlags: 0

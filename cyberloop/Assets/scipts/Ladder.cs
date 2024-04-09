@@ -10,6 +10,8 @@ public class Ladder : MonoBehaviour
 
     public Animator anim;
 
+    private bool disable =false;
+
     [SerializeField] private Rigidbody2D rb;
 
     void Update()
@@ -17,7 +19,11 @@ public class Ladder : MonoBehaviour
         horizontal = Input.GetAxisRaw("Horizontal");
         vertical = Input.GetAxisRaw("Vertical");
 
-        if (isLadder && Mathf.Abs(vertical) > 0.1f)
+        if (disable)
+        {
+            anim.enabled = false;
+        }
+        else if (isLadder && Mathf.Abs(vertical) > 0.1f)
         {
             isClimbing = true;
             anim.enabled = true;
@@ -26,7 +32,7 @@ public class Ladder : MonoBehaviour
         {
             anim.enabled = false;
         }
-        else { anim.enabled = true; }
+        else if (!isLadder) { anim.enabled = true; }
     }
 
     private void FixedUpdate()
@@ -60,6 +66,14 @@ public class Ladder : MonoBehaviour
             isLadder = false;
             isClimbing = false;
             anim.enabled = false; // Disable animations when not touching ladder
+        }
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            disable = true;
         }
     }
 }
