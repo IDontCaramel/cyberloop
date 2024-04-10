@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class UIbuttons : MonoBehaviour
 {
+    public GameObject HelpCanvas;
     public void RestartScene()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
@@ -29,4 +30,17 @@ public class UIbuttons : MonoBehaviour
         SceneManager.LoadScene("level 1");
         Time.timeScale = 1.0f;
     }
+
+    public void HelpScreen()
+    {
+        if (HelpCanvas.activeSelf)
+        {
+            HelpCanvas.SetActive(false);
+        }
+        else
+        {
+            HelpCanvas.SetActive(true);
+        }
+    }
+
 }

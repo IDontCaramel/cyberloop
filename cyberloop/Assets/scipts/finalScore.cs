@@ -6,14 +6,15 @@ using UnityEngine;
 public class finalScore : MonoBehaviour
 {
     public TextMeshProUGUI UItext;
+    public TextMeshProUGUI UItextShadow;
 
     // Start is called before the first frame update
     void Start()
     {
         if (UItext != null)
         {
-            // Here, we assume that you have ScoreUI class in your scene
             UItext.text = "You obtained " + ScoreUI.Score + "/20 consoles";
+            UItextShadow.text = "You obtained " + ScoreUI.Score + "/20 consoles";
         }
         else
         {

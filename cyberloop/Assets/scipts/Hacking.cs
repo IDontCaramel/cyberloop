@@ -10,7 +10,7 @@ public class Hacking : MonoBehaviour
     public float HackSpeed = 0.005f;
     public float progress = 0f;
     public bool isHacked;
-    public Transform pBar; // Assuming pBar is the parent object of the progress bar image
+    public Transform pBar; 
     public SpriteRenderer BarCollor;
 
     private GameObject canvas;
@@ -30,7 +30,6 @@ public class Hacking : MonoBehaviour
             Debug.LogError("Canvas GameObject not found with tag 'GameCanvas'");
         }
 
-        // Find the player and set it as the target
         player = GameObject.FindGameObjectWithTag("Player");
         if (player != null)
         {
@@ -69,10 +68,8 @@ public class Hacking : MonoBehaviour
                     Debug.DrawRay(transform.position, player.transform.position - transform.position, Color.green);
                     progress += HackSpeed;
 
-                    // Limit progress to 1 (complete)
                     progress = Mathf.Clamp(progress, 0f, 1f);
 
-                    // Update the scale of the progress bar
                     pBar.localScale = new Vector3(progress, 1f, 1f);
                 }
                 else

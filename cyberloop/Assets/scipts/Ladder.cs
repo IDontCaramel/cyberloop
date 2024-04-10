@@ -25,6 +25,7 @@ public class Ladder : MonoBehaviour
         }
         else if (isLadder && Mathf.Abs(vertical) > 0.1f)
         {
+            Debug.Log("anim on 3");
             isClimbing = true;
             anim.enabled = true;
         }
@@ -34,6 +35,7 @@ public class Ladder : MonoBehaviour
         }
         else if (!isLadder) 
         {
+            Debug.Log("anim on 3");
             anim.enabled = true; 
         }
     }
@@ -57,8 +59,9 @@ public class Ladder : MonoBehaviour
     {
         if (collision.CompareTag("ladder"))
         {
+            Debug.Log("anim on 2");
             isLadder = true;
-            anim.enabled = true; // Enable animations when touching ladder
+            anim.enabled = true; 
         }
     }
 
@@ -68,7 +71,7 @@ public class Ladder : MonoBehaviour
         {
             isLadder = false;
             isClimbing = false;
-            anim.enabled = false; // Disable animations when not touching ladder
+            anim.enabled = false;
         }
     }
 

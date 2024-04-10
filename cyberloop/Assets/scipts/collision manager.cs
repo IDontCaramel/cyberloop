@@ -46,8 +46,10 @@ public class CollisionManager : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+
+        if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("bullet") || collision.gameObject.CompareTag("Spike"))
         {
+            LadderScript.disable = true;
             if (LadderScript.isClimbing)
             {
                 LadderScript.isClimbing = false;
@@ -86,6 +88,7 @@ public class CollisionManager : MonoBehaviour
     }
     IEnumerator enableAnim(float delayTime)
     {
+        Debug.Log("anim on1");
         yield return new WaitForSeconds(delayTime);
         anim.enabled = true;
         LadderScript.disable = false;
