@@ -5,12 +5,12 @@ public class Ladder : MonoBehaviour
     private float horizontal;
     private float vertical;
     private float speed = 3f;
-    private bool isLadder;
-    private bool isClimbing;
+    public bool isLadder;
+    public bool isClimbing;
 
     public Animator anim;
 
-    private bool disable =false;
+    public bool disable = false;
 
     [SerializeField] private Rigidbody2D rb;
 
@@ -32,7 +32,10 @@ public class Ladder : MonoBehaviour
         {
             anim.enabled = false;
         }
-        else if (!isLadder) { anim.enabled = true; }
+        else if (!isLadder) 
+        {
+            anim.enabled = true; 
+        }
     }
 
     private void FixedUpdate()

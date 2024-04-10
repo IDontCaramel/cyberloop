@@ -1,0 +1,310 @@
+fileFormatVersion: 2
+guid: 82b847145cfc52d40be130c377f6cd1e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014translucent creative green technology digital_6541266_0"
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 593
+        width: 243
+        height: 442
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73663b41926b82e4d95c751d3f7aa033
+      internalID: 2022338376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014translucent creative green technology digital_6541266_2"
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 581
+        width: 380
+        height: 475
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 760a747727c7d28469857e3fb19a1078
+      internalID: 1245506908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014translucent creative green technology digital_6541266_3"
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 751
+        width: 372
+        height: 280
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 354d951d3edf2bc4da776cf07656caba
+      internalID: -498115534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014translucent creative green technology digital_6541266_6"
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 913
+        width: 288
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7bc775d42fb8db45aca009d58ef6585
+      internalID: 1548197687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014translucent creative green technology digital_6541266_10"
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 77
+        width: 309
+        height: 567
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9711a2585f0f64893fa494af9d9e03
+      internalID: -632009478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014translucent creative green technology digital_6541266_12"
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 51
+        width: 338
+        height: 505
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdfe8f18c4cb6c24c93c74fd09807a18
+      internalID: 966297564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u2014Pngtree\u2014translucent creative green technology digital_6541266_13"
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 159
+        width: 401
+        height: 356
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b12c1ca8982d564da6569f018342bde
+      internalID: 1972049815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      "\u2014Pngtree\u2014translucent creative green technology digital_6541266_0": 2022338376
+      "\u2014Pngtree\u2014translucent creative green technology digital_6541266_1": -596187490
+      "\u2014Pngtree\u2014translucent creative green technology digital_6541266_10": -632009478
+      "\u2014Pngtree\u2014translucent creative green technology digital_6541266_11": -394409302
+      "\u2014Pngtree\u2014translucent creative green technology digital_6541266_12": 966297564
+      "\u2014Pngtree\u2014translucent creative green technology digital_6541266_13": 1972049815
+      "\u2014Pngtree\u2014translucent creative green technology digital_6541266_14": 1010215738
+      "\u2014Pngtree\u2014translucent creative green technology digital_6541266_15": 904034158
+      "\u2014Pngtree\u2014translucent creative green technology digital_6541266_16": 329696624
+      "\u2014Pngtree\u2014translucent creative green technology digital_6541266_17": 1116239086
+      "\u2014Pngtree\u2014translucent creative green technology digital_6541266_18": -1974512483
+      "\u2014Pngtree\u2014translucent creative green technology digital_6541266_19": -1327503346
+      "\u2014Pngtree\u2014translucent creative green technology digital_6541266_2": 1245506908
+      "\u2014Pngtree\u2014translucent creative green technology digital_6541266_20": 1659151211
+      "\u2014Pngtree\u2014translucent creative green technology digital_6541266_21": 1643097761
+      "\u2014Pngtree\u2014translucent creative green technology digital_6541266_22": -228841552
+      "\u2014Pngtree\u2014translucent creative green technology digital_6541266_3": -498115534
+      "\u2014Pngtree\u2014translucent creative green technology digital_6541266_4": 502861678
+      "\u2014Pngtree\u2014translucent creative green technology digital_6541266_5": 1346639481
+      "\u2014Pngtree\u2014translucent creative green technology digital_6541266_6": 1548197687
+      "\u2014Pngtree\u2014translucent creative green technology digital_6541266_7": 414576940
+      "\u2014Pngtree\u2014translucent creative green technology digital_6541266_8": 1276372142
+      "\u2014Pngtree\u2014translucent creative green technology digital_6541266_9": 1161687148
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

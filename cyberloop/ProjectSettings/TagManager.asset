@@ -7,6 +7,8 @@ TagManager:
   - ladder
   - GameCanvas
   - Enemy
+  - Death
+  - ExtraLife
   layers:
   - Default
   - TransparentFX
