@@ -10,6 +10,6 @@ In "CyberLoop", players step into the shoes of a skilled hacker in a sprawling f
 a picture of the main menu
 
 ## How to play
-you can either [download](https://github.com/IDontCaramel/cyberloop.git) it from here or you can play it on my [website](https://www.lucaskoot.nl).
+you can either [download](https://github.com/IDontCaramel/cyberloop/raw/main/cyberloop%20build%20v1.1.zip) it from here or you can play it on my [website](https://www.lucaskoot.nl).
 
 [My portfolio](https://www.lucaskoot.nl)
