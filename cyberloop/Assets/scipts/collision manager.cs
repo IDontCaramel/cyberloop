@@ -15,6 +15,8 @@ public class CollisionManager : MonoBehaviour
     public int lives = 0;
     public Sprite hurt;
 
+    public GameObject Heart;
+
     public GameObject DeahtScreen;
 
     private void Start()
@@ -41,6 +43,7 @@ public class CollisionManager : MonoBehaviour
         {
             lives++;
             collision.gameObject.SetActive(false);
+            Heart.SetActive(true);
         }
     }
 
@@ -57,6 +60,7 @@ public class CollisionManager : MonoBehaviour
             Debug.Log("hit");
             if (lives > 0)
             {
+                Heart.SetActive(false);
                 anim.enabled = false;
                 sp.sprite = hurt;
                 rb.AddForce(Vector2.up * 2f, ForceMode2D.Impulse);

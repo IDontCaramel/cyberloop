@@ -1388,16 +1388,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'welcome to Cyberloop!!
 
-    you goal is to hack as many consoles as you
+    your goal is to hack as many consoles as you
     can
 
     you do this by standing close to them
 
     to move around the world
-    you can use a-d for left and right w for up and space for jump
+    you can use a-d for left and right w for up and space for jump to go faster use
+    the shift key
 
-    have fun
-    playing cyberloop'
+    have fun playing cyberloop'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 82e74db4f5bebea4ea6471d45869f379, type: 2}
   m_sharedMaterial: {fileID: -4337564218031613228, guid: 82e74db4f5bebea4ea6471d45869f379, type: 2}
@@ -2525,16 +2525,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'welcome to Cyberloop!!
 
-    you goal is to hack as many consoles as you
+    your goal is to hack as many consoles as you
     can
 
     you do this by standing close to them
 
     to move around the world
-    you can use a-d for left and right w for up and space for jump
+    you can use a-d for left and right w for up and space for jump to go faster use
+    the shift key
 
-    have fun
-    playing cyberloop'
+    have fun playing cyberloop'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 82e74db4f5bebea4ea6471d45869f379, type: 2}
   m_sharedMaterial: {fileID: -4337564218031613228, guid: 82e74db4f5bebea4ea6471d45869f379, type: 2}
