@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 public class UIbuttons : MonoBehaviour
 {
     public GameObject HelpCanvas;
+    public GameObject eggimg;
     public void RestartScene()
     {
         int currentSceneIndex = SceneManager.GetActiveScene().buildIndex;
@@ -41,6 +42,11 @@ public class UIbuttons : MonoBehaviour
         {
             HelpCanvas.SetActive(true);
         }
+    }
+
+    public void egg()
+    {
+        eggimg.SetActive(true);
     }
 
 }
