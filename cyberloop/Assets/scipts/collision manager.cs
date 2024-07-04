@@ -45,44 +45,52 @@ public class CollisionManager : MonoBehaviour
             collision.gameObject.SetActive(false);
             Heart.SetActive(true);
         }
+
+        if (collision.gameObject.CompareTag("bullet"))
+        {
+            hit();
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
-        if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("bullet") || collision.gameObject.CompareTag("Spike"))
+        if (collision.gameObject.CompareTag("Enemy") || collision.gameObject.CompareTag("Spike"))
         {
-            LadderScript.disable = true;
-            if (LadderScript.isClimbing)
-            {
-                LadderScript.isClimbing = false;
-            }
-            Debug.Log("hit");
-            if (lives > 0)
-            {
-                Heart.SetActive(false);
-                anim.enabled = false;
-                sp.sprite = hurt;
-                rb.AddForce(Vector2.up * 2f, ForceMode2D.Impulse);
-                StartCoroutine(enableAnim(1f));
-                lives--;
-            }
-            else
-            {
-                anim.enabled = false;
-                sp.sprite = hurt;
-                col.isTrigger = true;
-                rb.AddForce(Vector2.up * 3f, ForceMode2D.Impulse);
-                rb.constraints = RigidbodyConstraints2D.FreezePositionX;
-                SciptMovement.canJump = false;
-                StartCoroutine(screen(2f));
-            }
+            hit();
 
         }
 
     }
 
-        
+    private void hit()
+    {
+        LadderScript.disable = true;
+        if (LadderScript.isClimbing)
+        {
+            LadderScript.isClimbing = false;
+        }
+        Debug.Log("hit");
+        if (lives > 0)
+        {
+            Heart.SetActive(false);
+            anim.enabled = false;
+            sp.sprite = hurt;
+            rb.AddForce(Vector2.up * 2f, ForceMode2D.Impulse);
+            StartCoroutine(enableAnim(1f));
+            lives--;
+        }
+        else
+        {
+            anim.enabled = false;
+            sp.sprite = hurt;
+            col.isTrigger = true;
+            rb.AddForce(Vector2.up * 3f, ForceMode2D.Impulse);
+            rb.constraints = RigidbodyConstraints2D.FreezePositionX;
+            SciptMovement.canJump = false;
+            StartCoroutine(screen(2f));
+        }
+    }
 
     IEnumerator screen(float delayTime)
     {

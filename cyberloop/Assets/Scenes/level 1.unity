@@ -1080,6 +1080,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HelpCanvas: {fileID: 0}
+  eggimg: {fileID: 0}
 --- !u!1001 &115981192
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -30410,6 +30411,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HelpCanvas: {fileID: 0}
+  eggimg: {fileID: 0}
 --- !u!1 &804885496
 GameObject:
   m_ObjectHideFlags: 0
